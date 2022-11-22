@@ -5,3 +5,4 @@ After duplex calling using Guppy you are left with a fastq of duplexes and one o
 biopython
 
 ## Run
+`python resolve-np-duplex.py -s merged_simplex.fastq.gz -d merged_duplex.fastq.gz -p pair_ids_filtered.txt`
